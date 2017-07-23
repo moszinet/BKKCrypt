@@ -6,4 +6,6 @@ If you contribute and wish to be listed, please add your name to this list below
 * Paydogs (Objective-C, Pascal)
 * moszinet (Javascript)
 * Skarlso (C++)
+* akoskovacs (Ruby, Assembly, Haskell, Erlang, Brainfuck)
+* pehsa (Batch, PowerShell, Python)
 
