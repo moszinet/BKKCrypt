@@ -14,15 +14,15 @@ var testCases = []testCase{
 
 func TestBKKCrypt(t *testing.T) {
 	for _, test := range testCases {
-		act := encode(test.input)
-		if act != test.expected {
-			t.Fatalf("Actual '%s' did not equal expected '%s", act, test.expected)
+		act := Sum([]byte(test.input))
+		if string(act) != test.expected {
+			t.Fatalf("Actual '%s' did not equal expected '%s'", act, test.expected)
 		}
 	}
 }
 
 func BenchmarkBKKCrypt(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		encode("password")
+    Sum([]byte("password"))
 	}
 }
