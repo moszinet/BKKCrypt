@@ -1,5 +1,6 @@
 package bkkcrypt
 
-func encode(s string) string {
+// Encode applies the encryption of BKK
+func Encode(s string) string {
 	return s
 }
