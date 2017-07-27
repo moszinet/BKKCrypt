@@ -1,4 +1,4 @@
-BKKCrypt [![Build Status](https://travis-ci.org/fugafree/BKKCrypt.svg?branch=master)](https://travis-ci.org/fugafree/BKKCrypt)
+BKKCrypt
 ======
 
 The Scala implementation of the famous BKKCrypt algorithm.
