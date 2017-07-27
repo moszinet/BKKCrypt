@@ -1,0 +1,1 @@
+BKKCrypt = (input) -> input;
