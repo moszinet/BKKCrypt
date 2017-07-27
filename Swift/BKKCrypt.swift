@@ -1,8 +1,7 @@
 import Foundation
 
-class BkkCrypt {
-    
-    func BkkCrypt(_ input: String) -> String {
+class BKKCrypt {
+    static func encode(_ input: String) -> String {
         return input
     }
 }

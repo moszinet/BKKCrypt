@@ -32,7 +32,6 @@ namespace BKK
         {
             return _strategy.Crypt(passToEncrypt);
         }
-
     }
 
     /// <summary>
@@ -43,6 +42,79 @@ namespace BKK
         public override string Crypt(string passToEncrypt)
         {
             return passToEncrypt.Encrypt();
+        }
+    }
+    #endregion
+
+    #region Factory
+    /// <summary>
+    /// Factory base for further usage
+    /// </summary>
+    public abstract class FactoryBase
+    {
+        //todo: dont forget this one
+    }
+
+    /// <summary>
+    /// Context factory base
+    /// </summary>
+    public abstract class ContextFactoryBase : FactoryBase
+    {
+        public abstract StrategyContext CreateContext();
+        public abstract StrategyContext CreateContext(CryptStrategyBase cryptStrategyBase);
+    }
+
+    /// <summary>
+    /// Context factory
+    /// </summary>
+    public class ContextFactory : ContextFactoryBase
+    {
+        public override StrategyContext CreateContext()
+        {
+            return new StrategyContext();
+        }
+
+        public override StrategyContext CreateContext(CryptStrategyBase cryptStrategyBase)
+        {
+            return new StrategyContext(cryptStrategyBase);
+        }
+    }
+
+    /// <summary>
+    /// Strategy factory base
+    /// </summary>
+    public abstract class StrategyFactoryBase : FactoryBase
+    {
+        public abstract CryptStrategyBase CreateStrategy();
+    }
+
+    /// <summary>
+    /// BKK strategy factory
+    /// </summary>
+    public class BKKStrategyFactory : StrategyFactoryBase
+    {
+        public override CryptStrategyBase CreateStrategy()
+        {
+            return new BKKCryptStrategy();
+        }
+    }
+
+    /// <summary>
+    /// Crypto factory base
+    /// </summary>
+    public abstract class CryptFactoryBase : FactoryBase
+    {
+        public abstract ICrypt CreateCrypt();
+    }
+
+    /// <summary>
+    /// BKK crypt factory
+    /// </summary>
+    public class BkkCryptFactory : CryptFactoryBase
+    {
+        public override ICrypt CreateCrypt()
+        {
+            return new BKKCrypt();
         }
     }
     #endregion

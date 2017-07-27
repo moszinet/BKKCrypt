@@ -1,0 +1,13 @@
+require("bkkcrypt.spn");
+
+fn assert_eq(expected, actual) {
+    if expected == actual {
+        print("\x1b[1;32mPassed!\x1b[0m");
+    } else {
+        print("\x1b[1;31mFailed!\x1b[0m");
+        print("Expected: \x1b[1;36m", expected, "\x1b[0m");
+        print("Actual: \x1b[1;36m", actual, "\x1b[0m");
+    }
+}
+
+assert_eq(bkk_crypt("password123"), "password123");
