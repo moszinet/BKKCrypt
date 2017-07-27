@@ -42,4 +42,4 @@ A few of our contributors:
 * komlosizsolt (ActionScript 3)
 * H2CO3 (Sparkling)
 * lpgera (Verilog)
-* TamasSzekeres (Crystal, Euphoria, Vala)
+* TamasSzekeres (Crystal, Euphoria, Nim, Vala)
