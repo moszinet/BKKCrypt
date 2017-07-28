@@ -1,0 +1,9 @@
+/* REXX */
+/* This REXX will handle the password in the most secure way */
+parse arg passwd
+call BKKCrypt passwd
+say passwd_s
+
+BKKCrypt:
+passwd_s = passwd
+return 
