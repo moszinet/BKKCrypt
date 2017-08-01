@@ -43,3 +43,4 @@ A few of our contributors:
 * H2CO3 (Sparkling)
 * lpgera (Verilog)
 * TamasSzekeres (Crystal, Euphoria)
+* ambethia (Nim)
