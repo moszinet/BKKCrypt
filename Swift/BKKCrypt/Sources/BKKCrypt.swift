@@ -1,8 +1,13 @@
 import Foundation
 
-public class BkkCrypt {
-    
-    public static func encrypt(_ input: String) -> String {
+class BKKCrypt {
+    static func encode(_ input: String) -> String {
         return input
+    }
+}
+
+extension String {
+    func BKKCrypt() -> String {
+        return self
     }
 }
