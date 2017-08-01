@@ -1,0 +1,13 @@
+Type: Package
+Package: BKKCrypt
+Maintainer: Gergely Daroczi <daroczig@rapporter.net>
+Author: Gergely Daroczi <daroczig@rapporter.net>
+Title: An implementation of the famous BKKCrypt algorithm.
+Description: Brings the BKKCrypt encryption algorithm into R.
+Version: 1.0
+Date: 2017-07-24
+URL: https://github.com/moszinet/BKKCrypt/R
+License: AGPL-3
+Imports: checkmate
+Suggests: testthat
+RoxygenNote: 6.0.1

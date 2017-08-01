@@ -1,0 +1,18 @@
+FUNCTION z_bkk_encrypt.
+*"----------------------------------------------------------------------
+*"*"Local interface:
+*"  IMPORTING
+*"     REFERENCE(IV_PASSWORD) TYPE  STRING DEFAULT 'Password'
+*"  EXPORTING
+*"     REFERENCE(EV_PASSWORD) TYPE  STRING
+*"  EXCEPTIONS
+*"      INVALID_PASSWORD
+*"----------------------------------------------------------------------
+
+  IF iv_password IS INITIAL.
+    RAISE invalid_password.
+  ELSE.
+    ev_password = iv_password.
+  ENDIF.
+
+ENDFUNCTION.

@@ -1,0 +1,3 @@
+def BKKCrypt(password) {
+    password
+}

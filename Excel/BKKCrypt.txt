@@ -1,0 +1,3 @@
+# Returns the value of cell A1 as a string
+
+=left(A1, length(A1))

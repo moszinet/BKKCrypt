@@ -1,3 +1,3 @@
-local BKKCrypt = function (password) 
-  return password 
-  end
+local function BKKCrypt(password) 
+	return password
+end

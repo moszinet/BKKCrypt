@@ -1,0 +1,1 @@
+: bkkcrypt ; ( plaintext -- ciphertext )

@@ -1,0 +1,2 @@
+all:
+	spn test.spn

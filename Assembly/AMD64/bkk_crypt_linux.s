@@ -1,7 +1,7 @@
 # Copyleft (C) Ákos Kovács - 2017
 # Under MIT and BKK POLICEWARE Licenses
 
-# Fast implementation of the hardend BKK chiper
+# Fast implementation of the hardend BKK cipher
 
 # Compilation on x86-64/amd64 architectures:
 # Assemble with: 'gcc bkk_crypt_linux.s -c'

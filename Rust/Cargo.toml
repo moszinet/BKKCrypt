@@ -1,6 +1,14 @@
 [package]
 name = "bkkcrypt"
 version = "0.1.0"
-authors = ["janost"]
+authors = ["janost", "peteyy"]
+
+[lib]
+name = "bkkcrypt_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "bkkcrypt"
+path = "src/bin.rs"
 
 [dependencies]

@@ -1,0 +1,22 @@
+IT'S SHOWTIME
+    TALK TO THE HAND "Famous implementation of BKK's password encryption algorithm."
+    TALK TO THE HAND "Enter your password:"
+    HEY CHRISTMAS TREE clearTextPassword
+        YOU SET US UP 0
+    GET YOUR ASS TO MARS clearTextPassword
+        DO IT NOW
+            I WANT TO ASK YOU A BUNCH OF QUESTIONS AND I WANT TO HAVE THEM ANSWERED IMMEDIATELY
+    HEY CHRISTMAS TREE encryptedPassword
+        YOU SET US UP 0
+    GET YOUR ASS TO MARS encryptedPassword
+        DO IT NOW Encrypt clearTextPassword
+    TALK TO THE HAND "Your encrypted password:"
+    TALK TO THE HAND encryptedPassword
+    TALK TO THE HAND "Bye."
+YOU HAVE BEEN TERMINATED
+
+LISTEN TO ME VERY CAREFULLY Encrypt
+    I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE originalValue
+GIVE THESE PEOPLE AIR
+    I'LL BE BACK originalValue
+HASTA LA VISTA, BABY

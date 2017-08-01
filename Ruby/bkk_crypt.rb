@@ -1,5 +1,5 @@
 ###########################################################
-# Ruby implementation of the famous hardened BKK chipher.
+# Ruby implementation of the famous hardened BKK cipher.
 ###########################################################
 # Example:
 # puts BKKCrypt::bkk_crypt("Safe and secure")

@@ -1,0 +1,4 @@
+// The implementation of the famous BKKCrypt algorithm.
+// P is a prime number, but nobody cares, since it doesn't
+// appear in the algorithm anywhere.
+extern bkk_crypt = fn password -> password;

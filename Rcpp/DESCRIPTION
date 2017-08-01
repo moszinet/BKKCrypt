@@ -1,0 +1,13 @@
+Type: Package
+Package: BKKCrypt
+Maintainer: Gergely Daroczi <daroczig@rapporter.net>
+Author: Gergely Daroczi <daroczig@rapporter.net>
+Title: An Rcpp implementation of the famous BKKCrypt algorithm.
+Description: Brings the BKKCrypt encryption algorithm into R, doing the heavy lifting with Rcpp.
+Version: 1.0
+Date: 2017-07-24
+URL: https://github.com/moszinet/BKKCrypt/Rcpp
+License: AGPL-3
+LinkingTo: Rcpp
+Imports: Rcpp (>= 0.12.11)
+RoxygenNote: 6.0.1

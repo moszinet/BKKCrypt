@@ -1,0 +1,12 @@
+{
+	"name": "bkk/crypt",
+	"description": "PHP implementation of famous BKK cryptographic method.",
+	"minimum-stability": "stable",
+	"license": "MIT",
+	"require-dev": {
+		"phpunit/phpunit": "6.3.x-dev"
+	},
+  "autoload": {
+    "psr-4": { "BKK\\": "src/BKK/" }
+  }
+}

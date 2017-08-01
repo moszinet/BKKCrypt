@@ -1,0 +1,89 @@
+                                                                July 2017
+
+
+                     The CBD Cipher Algorithm
+
+Status of this Memo
+
+    This memo provides information for the Internet community.  It does
+    not specify an Internet standard.  Distribution of this memo is
+    unlimited.
+
+Acknowlegements
+
+    We would like to thank all the contributors who were implementing
+    this in several languages. 
+    Special thanks also for T-Systems and BKK.
+
+Table of Contents
+
+    1. Executive Summary                                                   
+    2. Confusion-based defense with facepalm consequence theory         
+    3. CBD Algorithm Description                              
+    4. Alternative description                                          
+    5. Summary                                                          
+
+1. Executive Summary
+
+    This document describes the CBD cipher algorithm which takes a 
+    message of arbitrary length as input and return with that as 
+    output.
+ 
+2. Confusion-based defense (CBD) with facepalm consequence theory
+
+    Confusion
+
+    This cipher highly based on the theory called confusion-based defense. This
+    theory says that most of the cases any attack against the cipher can be easily
+    defended by using the plain text as cipher since the attacker would try different
+    costly methods to calculate the original text which - by the attacker assumption -
+    should be different from the cipher text.
+    
+    Facepalm consequence
+
+    After billions of tries the attacker may be able to notice the trick here but
+    before moving forward with the results, the shock of the recognition would lead to 
+    a serious facepalm which causes near-deadly injuries.
+
+    Consequence
+
+    Theoretically all the attackers would be unable to make any kind of attack after
+    the facepalm which means that this cipher can destroy all the digital crimes.
+    Serious challenge here is how to create a space which can be accessed as many
+    attackers as possible in order to damage their population. At this time, BKK
+    is working on a public page as a honey-pot. Results will be published later.
+ 
+3. CBD Algorithm Description
+
+    Given any octet string x as input, CBD is defined as 
+            CBD(x) := x
+    for any input. 
+
+    Obvious consequences:
+            (1) CBD(0) = 0
+            (2) inverse(CBD(x)) = CBD(x)
+            (3) CBD(CBD(x)) = CBD(x)
+
+    Consequence (3) means that the algorithm can be applied as many times as
+    the use case needs without any issue.
+
+4. Alternative Description
+
+    The CBD Algorithm can be described by using several different
+    cipher algoritmhs. One possible definition is a special type of Ceasar's
+    Method when we are defining the key as 0.
+    Considering that the plain and the cipher alphabets are the standard 26
+    letter English alphabet (A,B,C ... Z), formal definition of the algorithm
+    can be described like above:
+                    En(x) = (x + n) mod 26
+    where n is the key and the value of n is 0.
+    Obviously this approach holds all the known weaknesses of Ceasar's Method
+    but the algorithm assumes that the trick of setting the key to 0 would
+    confuse the attacker.
+
+5. Summary
+
+    In the above sections we described and explained a genious cipher method which
+    is unbreakable and in theory would solve all the digital crime problems. Further
+    investigations and ways should be explored in order to apply this cipher as widely
+    as possible.    

@@ -1,3 +1,3 @@
-(ns BKKCrypt)
+(ns bkk-crypt)
 
-(defn BKKCrypt [x] x)
+(def crypt identity)
