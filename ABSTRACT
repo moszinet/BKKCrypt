@@ -70,7 +70,7 @@ Table of Contents
 4. Alternative Description
 
     The CBD Algorithm can be described by using several different
-    cipher algoritmhs. One possible definition is a special type of Ceasar's
+    cipher algoritmhs. One possible definition is a special type of Caesar's
     Method when we are defining the key as 0.
     Considering that the plain and the cipher alphabets are the standard 26
     letter English alphabet (A,B,C ... Z), formal definition of the algorithm
@@ -83,7 +83,7 @@ Table of Contents
 
 5. Summary
 
-    In the above sections we described and explained a genious cipher method which
+    In the above sections we described and explained an ingenious cipher method which
     is unbreakable and in theory would solve all the digital crime problems. Further
     investigations and ways should be explored in order to apply this cipher as widely
     as possible.    
